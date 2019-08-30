@@ -5,9 +5,64 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* height: 100vh; */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+body .grid {
+  height: 100vh
+}
+
+body .row {
+    display: flex;
+    justify-content: center;
+    height: 10%;
+}
+
+body .number {
+  width: 10%;
+}
+
+body .color1  {
+  background: purple;
+}
+
+
+body .color2  {
+  background: green;
+}
+
+body .color3  {
+  background: blue;
+}
+
+body .color4  {
+  background: red;
+}
+
+body .color5  {
+  background: yellow;
+}
+
+
+body .color6  {
+  background: orange;
+}
+
+
+body .color7  {
+  background: teal;
+}
+
+
+body .color8  {
+  background: grey;
+}
+
+
+body .color9  {
+  background: darkmagenta;
 }

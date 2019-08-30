@@ -1,10 +1,14 @@
 import React from 'react';
+import BoxGrid from './BoxGrid';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      Code goes here!
+      <div>
+        <BoxGrid />
+
+      </div>
     </div>
   );
 }
